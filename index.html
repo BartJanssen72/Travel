@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Travelly is een website waar je reizen kunt boeken."
+    />
+    <meta name="robots" content="index,folow" />
+    <link rel="icon" href="/icons/globe.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travelly | Online reisburea</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Travelly</h1>
+        <ul>
+          <li><a href="#location">Bestemmingen</a></li>
+          <li><a href="#benefits">Voordelen</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Reis naar het onbekende.</h2>
+        <h3>
+          Start je reis voordelig met Travelly <br />
+          Contact ons hier beneden.
+        </h3>
+        <button>boek nu</button>
+      </section>
+      <section id="location">
+        <header id="location-head">
+          <h2>De perfecte reiservaring</h2>
+          <h3>
+            Wij regelen alles. Van het hotel <br />
+            vlucht tot de locatie
+          </h3>
+          <img src="/Img/cloud.png" class="moving-cloud-1 cloud" alt="" />
+          <img src="/Img/cloud.png" class="moving-cloud-2 cloud" alt="" />
+        </header>
+      </section>
+      <section id="benefits">
+        <header class="benefits-head">
+          <h2>KORTING</h2>
+          <h3>Boek voor juni en ontvang 10% procent korting</h3>
+        </header>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">
+              <img src="/icons/route-solid.svg" alt="" />
+            </div>
+            <h4>Reis</h4>
+            <p>Reis naar meer dan 250 landen</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="/icons/bed-solid.svg" alt="" />
+            </div>
+            <h4>Hotel</h4>
+            <p>De hotels liggen bij populaire plaatsen</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="/icons/plane-departure-solid.svg" alt="" />
+            </div>
+            <h4>Vlucht</h4>
+            <p>Bij alle reizen is de vlucht inbegrepen</p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="form-wrapper">
+          <header class="contact-header">
+            <h2>contact</h2>
+          </header>
+          <form action="https://formspree.io/f/xvovyeyk" method="POST">
+            <div class="name-form">
+              <label for="name">Naam:</label>
+              <input id="name" type="text" name="name" required />
+            </div>
+            <div class="email-form">
+              <label for="email">e-mail:</label>
+              <input id="email" type="email" name="_replyto" required />
+            </div>
+            <button value="Send" type="submit">Verzenden</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <h3>Travelly &copy;</h3>
+        <ul>
+          <li>
+            <a href="#" title="twitter-link"
+              ><img src="/icons/twitter.svg" alt="twitter-link"
+            /></a>
+          </li>
+          <li>
+            <a href="#" title="youtube-link"
+              ><img src="/icons/youtube.svg" alt="youtube-link"
+            /></a>
+          </li>
+          <li>
+            <a href="#" title="instagram-link"
+              ><img src="/icons/instagram.svg" alt="instagram-link"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
